@@ -1,2 +1,0 @@
-jsonschema>=4.0.0
-music21>=9.9.1
