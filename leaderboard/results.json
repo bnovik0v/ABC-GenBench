@@ -26,6 +26,87 @@
         "validity_check": 1.0
       },
       "composite_score": 0.9797
+    },
+    {
+      "label": "gpt-5-eval-2026-04-02",
+      "model_name": "gpt-5",
+      "provider": "openai",
+      "model_version": "2026-04-02",
+      "benchmark_name": "ABC-GenBench",
+      "benchmark_version": "0.2.0-eval",
+      "benchmark_split": "eval",
+      "run_type": "community",
+      "submission_date": "2026-04-01",
+      "notes": "",
+      "aggregate_scores": {
+        "constraint_following": 0.95,
+        "editing_continuation": 0.8926,
+        "validity_renderability": 0.99
+      },
+      "task_type_scores": {
+        "controlled_generation": 0.95,
+        "error_correction": 1.0,
+        "free_continuation": 0.6574,
+        "middle_infilling": 0.9875,
+        "next_bar_choice": 1.0,
+        "style_variation": 0.9215,
+        "validity_check": 0.99
+      },
+      "composite_score": 0.9442
+    },
+    {
+      "label": "gpt-5-mini-eval-2026-04-02",
+      "model_name": "gpt-5-mini",
+      "provider": "openai",
+      "model_version": "2026-04-02",
+      "benchmark_name": "ABC-GenBench",
+      "benchmark_version": "0.2.0-eval",
+      "benchmark_split": "eval",
+      "run_type": "community",
+      "submission_date": "2026-04-01",
+      "notes": "",
+      "aggregate_scores": {
+        "constraint_following": 0.9175,
+        "editing_continuation": 0.9133,
+        "validity_renderability": 0.8918
+      },
+      "task_type_scores": {
+        "controlled_generation": 0.9175,
+        "error_correction": 0.9536,
+        "free_continuation": 0.7676,
+        "middle_infilling": 0.9792,
+        "next_bar_choice": 1.0,
+        "style_variation": 0.9305,
+        "validity_check": 0.8918
+      },
+      "composite_score": 0.9075
+    },
+    {
+      "label": "gpt-5-nano-eval-2026-04-02",
+      "model_name": "gpt-5-nano",
+      "provider": "openai",
+      "model_version": "2026-04-02",
+      "benchmark_name": "ABC-GenBench",
+      "benchmark_version": "0.2.0-eval",
+      "benchmark_split": "eval",
+      "run_type": "community",
+      "submission_date": "2026-04-01",
+      "notes": "",
+      "aggregate_scores": {
+        "constraint_following": 0.88,
+        "editing_continuation": 0.788,
+        "validity_renderability": 0.7019
+      },
+      "task_type_scores": {
+        "controlled_generation": 0.88,
+        "error_correction": 0.9745,
+        "free_continuation": 0.3235,
+        "middle_infilling": 0.8671,
+        "next_bar_choice": 1.0,
+        "style_variation": 0.934,
+        "validity_check": 0.7019
+      },
+      "composite_score": 0.79
     }
   ]
 }

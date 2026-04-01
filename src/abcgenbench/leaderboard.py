@@ -9,6 +9,11 @@ from .validation import validate_document
 
 
 VALID_RUN_TYPES = {"official", "community", "baseline"}
+RUN_TYPE_ORDER = {"official": 0, "community": 1, "baseline": 2}
+
+
+def _sort_key(row: dict[str, Any]) -> tuple[Any, ...]:
+    return (row["benchmark_split"], RUN_TYPE_ORDER.get(row["run_type"], 99), -row["composite_score"], row["label"])
 
 
 def load_leaderboard(leaderboard_path: str | Path) -> dict[str, Any]:
@@ -67,9 +72,7 @@ def ingest_report(
     payload = load_leaderboard(leaderboard_path)
     payload["entries"] = [row for row in payload["entries"] if row["label"] != label]
     payload["entries"].append(entry)
-    payload["entries"].sort(
-        key=lambda row: (row["benchmark_split"], -row["composite_score"], row["label"])
-    )
+    payload["entries"].sort(key=_sort_key)
 
     errors = validate_document(payload, "leaderboard_results.schema.json")
     if errors:
@@ -79,10 +82,7 @@ def ingest_report(
 
 
 def render_leaderboard_markdown(payload: dict[str, Any]) -> str:
-    entries = sorted(
-        payload["entries"],
-        key=lambda row: (row["benchmark_split"], -row["composite_score"], row["label"]),
-    )
+    entries = sorted(payload["entries"], key=_sort_key)
     lines = [
         "# Leaderboard",
         "",
