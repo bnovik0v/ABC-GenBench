@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "label": "eval-baseline-0.2.0",
+      "model_name": "baseline-deterministic",
+      "provider": "local",
+      "model_version": "0.2.0",
+      "benchmark_name": "ABC-GenBench",
+      "benchmark_version": "0.2.0-eval",
+      "benchmark_split": "eval",
+      "run_type": "baseline",
+      "submission_date": "2026-04-01",
+      "notes": "",
+      "aggregate_scores": {
+        "constraint_following": 0.9475,
+        "editing_continuation": 0.9917,
+        "validity_renderability": 1.0
+      },
+      "task_type_scores": {
+        "controlled_generation": 0.9475,
+        "error_correction": 1.0,
+        "free_continuation": 1.0,
+        "middle_infilling": 1.0,
+        "next_bar_choice": 1.0,
+        "style_variation": 0.9667,
+        "validity_check": 1.0
+      },
+      "composite_score": 0.9797
+    }
+  ]
+}

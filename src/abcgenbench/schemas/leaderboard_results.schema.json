@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Leaderboard Results",
+  "type": "object",
+  "required": ["entries"],
+  "properties": {
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "model_name",
+          "provider",
+          "model_version",
+          "benchmark_name",
+          "benchmark_version",
+          "benchmark_split",
+          "run_type",
+          "submission_date",
+          "aggregate_scores",
+          "task_type_scores",
+          "composite_score"
+        ],
+        "properties": {
+          "label": {"type": "string"},
+          "model_name": {"type": "string"},
+          "provider": {"type": "string"},
+          "model_version": {"type": "string"},
+          "benchmark_name": {"type": "string"},
+          "benchmark_version": {"type": "string"},
+          "benchmark_split": {"type": "string"},
+          "run_type": {
+            "type": "string",
+            "enum": ["official", "community", "baseline"]
+          },
+          "submission_date": {"type": "string"},
+          "notes": {"type": "string"},
+          "aggregate_scores": {
+            "type": "object",
+            "additionalProperties": {"type": "number"}
+          },
+          "task_type_scores": {
+            "type": "object",
+            "additionalProperties": {"type": "number"}
+          },
+          "composite_score": {"type": "number"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

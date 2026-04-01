@@ -1,0 +1,32 @@
+name: Refresh Leaderboard
+
+on:
+  push:
+    paths:
+      - leaderboard/results.json
+      - src/abcgenbench/leaderboard.py
+      - src/abcgenbench/schemas/leaderboard_*.schema.json
+      - .github/workflows/leaderboard.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync
+      - run: uv run abcgenbench render-leaderboard leaderboard/results.json --output docs/leaderboard.md
+      - name: Commit refreshed leaderboard
+        run: |
+          if git diff --quiet -- docs/leaderboard.md; then
+            exit 0
+          fi
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add docs/leaderboard.md
+          git commit -m "Refresh leaderboard"
+          git push

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Benchmark Manifest",
+  "type": "object",
+  "required": [
+    "name",
+    "version",
+    "description",
+    "tracks",
+    "instance_files",
+    "split",
+    "prompt_policy",
+    "expected_instance_count"
+  ],
+  "properties": {
+    "name": {"type": "string"},
+    "version": {"type": "string"},
+    "description": {"type": "string"},
+    "split": {
+      "type": "string",
+      "enum": ["demo", "eval", "hidden_eval"]
+    },
+    "prompt_policy": {
+      "type": "object",
+      "required": ["model_visible_fields", "scorer_hidden_fields"],
+      "properties": {
+        "model_visible_fields": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "scorer_hidden_fields": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "tracks": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1
+    },
+    "instance_files": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1
+    },
+    "scoring_instance_files": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "expected_instance_count": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

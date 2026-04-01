@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task Instances",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "track", "task_type", "prompt"],
+    "properties": {
+      "id": {"type": "string"},
+      "track": {
+        "type": "string",
+        "enum": [
+          "validity_renderability",
+          "constraint_following",
+          "editing_continuation"
+        ]
+      },
+      "task_type": {
+        "type": "string",
+        "enum": [
+          "validity_check",
+          "controlled_generation",
+          "next_bar_choice",
+          "free_continuation",
+          "middle_infilling",
+          "error_correction",
+          "style_variation"
+        ]
+      },
+      "prompt": {"type": "string"},
+      "input_abc": {"type": "string"},
+      "reference_abc": {"type": "string"},
+      "seed_abc": {"type": "string"},
+      "candidate_abc": {"type": "string"},
+      "choices": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "abc"],
+          "properties": {
+            "id": {"type": "string"},
+            "abc": {"type": "string"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "expected_choice": {"type": "string"},
+      "constraints": {
+        "type": "object",
+        "properties": {
+          "meter": {"type": "string"},
+          "key": {"type": "string"},
+          "tune_type": {"type": "string"},
+          "sections": {"type": "integer", "minimum": 1},
+          "bars": {"type": "integer", "minimum": 1},
+          "min_pitch": {"type": "integer"},
+          "max_pitch": {"type": "integer"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
+}

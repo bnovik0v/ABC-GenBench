@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task Overrides",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id"],
+    "properties": {
+      "id": {"type": "string"},
+      "reference_abc": {"type": "string"},
+      "expected_choice": {"type": "string"},
+      "constraints": {
+        "type": "object",
+        "properties": {
+          "meter": {"type": "string"},
+          "key": {"type": "string"},
+          "tune_type": {"type": "string"},
+          "sections": {"type": "integer", "minimum": 1},
+          "bars": {"type": "integer", "minimum": 1},
+          "min_pitch": {"type": "integer"},
+          "max_pitch": {"type": "integer"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
+}

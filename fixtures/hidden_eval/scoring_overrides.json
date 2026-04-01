@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hidden-001",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "hidden-002",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "hidden-003",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "hidden-004",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "hidden-005",
+    "expected_choice": "A"
+  },
+  {
+    "id": "hidden-006",
+    "expected_choice": "A"
+  },
+  {
+    "id": "hidden-007",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "hidden-008",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "hidden-009",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  },
+  {
+    "id": "hidden-010",
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]"
+  },
+  {
+    "id": "hidden-011",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGAcd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "hidden-012",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  }
+]

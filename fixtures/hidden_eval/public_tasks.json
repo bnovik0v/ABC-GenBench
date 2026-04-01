@@ -1,0 +1,128 @@
+[
+  {
+    "id": "hidden-001",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in G major with a clear cadence."
+  },
+  {
+    "id": "hidden-002",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in D major."
+  },
+  {
+    "id": "hidden-003",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in G major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "G",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 91
+    }
+  },
+  {
+    "id": "hidden-004",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in D major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "D",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 62,
+      "max_pitch": 91
+    }
+  },
+  {
+    "id": "hidden-005",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "cBAG |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ]
+  },
+  {
+    "id": "hidden-006",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "dcBA |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ]
+  },
+  {
+    "id": "hidden-007",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed |"
+  },
+  {
+    "id": "hidden-008",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd |"
+  },
+  {
+    "id": "hidden-009",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF |"
+  },
+  {
+    "id": "hidden-010",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc |"
+  },
+  {
+    "id": "hidden-011",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "hidden-012",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  }
+]

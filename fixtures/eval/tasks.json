@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "eval-valid-001",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in G major with a clear cadence.",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "eval-valid-002",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in D major.",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "eval-valid-003",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in G major with a clear cadence.",
+    "reference_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 |]"
+  },
+  {
+    "id": "eval-valid-004",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in D major.",
+    "reference_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 |]"
+  },
+  {
+    "id": "eval-valid-005",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar march in C major.",
+    "reference_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG | FEDC |]"
+  },
+  {
+    "id": "eval-valid-006",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar march in C major.",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  },
+  {
+    "id": "eval-valid-007",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar air in A minor.",
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]"
+  },
+  {
+    "id": "eval-valid-008",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar air in A minor.",
+    "reference_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 |]"
+  },
+  {
+    "id": "eval-valid-009",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in G major with a clear cadence.",
+    "reference_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd | g2g2 |]"
+  },
+  {
+    "id": "eval-valid-010",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar reel in D major.",
+    "reference_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 |]"
+  },
+  {
+    "id": "eval-valid-011",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in G major.",
+    "reference_abc": "X:1\nT:G Jig 1\nM:6/8\nL:1/8\nR:jig\nK:G\nGAB dBG | cde dBG | GAB AGE | DGB G3 |]"
+  },
+  {
+    "id": "eval-valid-012",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in D dorian.",
+    "reference_abc": "X:1\nT:D Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF GAF | dAF EFG | DEF GAB | AFD D3 |]"
+  },
+  {
+    "id": "eval-valid-013",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in G dorian.",
+    "reference_abc": "X:1\nT:G Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nGAB BAG | dBG ABG | GAB dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-valid-014",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in G major.",
+    "reference_abc": "X:1\nT:G Jig 2\nM:6/8\nL:1/8\nR:jig\nK:G\ndBG ABG | GAB dBG | cde dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-valid-015",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in D dorian.",
+    "reference_abc": "X:1\nT:D Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nAFA dAF | EFG ABG | AFD EFG | D3 D3 |]"
+  },
+  {
+    "id": "eval-valid-016",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in G major.",
+    "reference_abc": "X:1\nT:G Jig 3\nM:6/8\nL:1/8\nR:jig\nK:G\nBcd edB | GAB dBG | cde dcB | AGF G3 |]"
+  },
+  {
+    "id": "eval-valid-017",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in D dorian.",
+    "reference_abc": "X:1\nT:D Dorian Jig 3\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF AFA | dfg afd | efg fed | AFD D3 |]"
+  },
+  {
+    "id": "eval-valid-018",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in G dorian.",
+    "reference_abc": "X:1\nT:G Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nABG dBG | GAB AGE | dBG ABG | AGF G3 |]"
+  },
+  {
+    "id": "eval-valid-019",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in G major.",
+    "reference_abc": "X:1\nT:G Jig 4\nM:6/8\nL:1/8\nR:jig\nK:G\nG2B dBG | c2e dBG | GAB AGE | DGB G3 |]"
+  },
+  {
+    "id": "eval-valid-020",
+    "track": "validity_renderability",
+    "task_type": "validity_check",
+    "prompt": "Generate a valid 4-bar jig in D dorian.",
+    "reference_abc": "X:1\nT:D Dorian Jig 4\nM:6/8\nL:1/8\nR:jig\nK:Ddor\ndAF EFG | DEF GAB | AFA dAF | EFD D3 |]"
+  },
+  {
+    "id": "eval-ctrl-001",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in G major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "G",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 91
+    },
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "eval-ctrl-002",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in D major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "D",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 62,
+      "max_pitch": 91
+    },
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "eval-ctrl-003",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in G major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "G",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 91
+    },
+    "reference_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 |]"
+  },
+  {
+    "id": "eval-ctrl-004",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in D major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "D",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 62,
+      "max_pitch": 91
+    },
+    "reference_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 |]"
+  },
+  {
+    "id": "eval-ctrl-005",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar march in C major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "C",
+      "tune_type": "march",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 60,
+      "max_pitch": 79
+    },
+    "reference_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG | FEDC |]"
+  },
+  {
+    "id": "eval-ctrl-006",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar march in C major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "C",
+      "tune_type": "march",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 60,
+      "max_pitch": 79
+    },
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  },
+  {
+    "id": "eval-ctrl-007",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar air in A minor with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "Am",
+      "tune_type": "air",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 69,
+      "max_pitch": 79
+    },
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]"
+  },
+  {
+    "id": "eval-ctrl-008",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar air in A minor with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "Am",
+      "tune_type": "air",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 69,
+      "max_pitch": 79
+    },
+    "reference_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 |]"
+  },
+  {
+    "id": "eval-ctrl-009",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in G major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "G",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 91
+    },
+    "reference_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd | g2g2 |]"
+  },
+  {
+    "id": "eval-ctrl-010",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar reel in D major with one section.",
+    "constraints": {
+      "meter": "4/4",
+      "key": "D",
+      "tune_type": "reel",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 62,
+      "max_pitch": 91
+    },
+    "reference_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 |]"
+  },
+  {
+    "id": "eval-ctrl-011",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in G major with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "G",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:G Jig 1\nM:6/8\nL:1/8\nR:jig\nK:G\nGAB dBG | cde dBG | GAB AGE | DGB G3 |]"
+  },
+  {
+    "id": "eval-ctrl-012",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in D dorian with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "Ddor",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 69,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:D Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF GAF | dAF EFG | DEF GAB | AFD D3 |]"
+  },
+  {
+    "id": "eval-ctrl-013",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in G dorian with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "Gdor",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:G Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nGAB BAG | dBG ABG | GAB dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-ctrl-014",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in G major with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "G",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:G Jig 2\nM:6/8\nL:1/8\nR:jig\nK:G\ndBG ABG | GAB dBG | cde dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-ctrl-015",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in D dorian with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "Ddor",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 69,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:D Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nAFA dAF | EFG ABG | AFD EFG | D3 D3 |]"
+  },
+  {
+    "id": "eval-ctrl-016",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in G major with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "G",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:G Jig 3\nM:6/8\nL:1/8\nR:jig\nK:G\nBcd edB | GAB dBG | cde dcB | AGF G3 |]"
+  },
+  {
+    "id": "eval-ctrl-017",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in D dorian with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "Ddor",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 69,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:D Dorian Jig 3\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF AFA | dfg afd | efg fed | AFD D3 |]"
+  },
+  {
+    "id": "eval-ctrl-018",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in G dorian with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "Gdor",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:G Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nABG dBG | GAB AGE | dBG ABG | AGF G3 |]"
+  },
+  {
+    "id": "eval-ctrl-019",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in G major with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "G",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 67,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:G Jig 4\nM:6/8\nL:1/8\nR:jig\nK:G\nG2B dBG | c2e dBG | GAB AGE | DGB G3 |]"
+  },
+  {
+    "id": "eval-ctrl-020",
+    "track": "constraint_following",
+    "task_type": "controlled_generation",
+    "prompt": "Generate a 4-bar jig in D dorian with one section.",
+    "constraints": {
+      "meter": "6/8",
+      "key": "Ddor",
+      "tune_type": "jig",
+      "sections": 1,
+      "bars": 4,
+      "min_pitch": 69,
+      "max_pitch": 88
+    },
+    "reference_abc": "X:1\nT:D Dorian Jig 4\nM:6/8\nL:1/8\nR:jig\nK:Ddor\ndAF EFG | DEF GAB | AFA dAF | EFD D3 |]"
+  },
+  {
+    "id": "eval-choice-001",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "cBAG |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-002",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "dcBA |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-003",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "cBAG |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-004",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "d2cB |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-005",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "cBAG |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-006",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "EDCG |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-007",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "BAGA |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-008",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "cBAG |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-009",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "GABd |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-choice-010",
+    "track": "editing_continuation",
+    "task_type": "next_bar_choice",
+    "prompt": "Pick the most coherent next bar.",
+    "input_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd |",
+    "choices": [
+      {
+        "id": "A",
+        "abc": "ecBA |"
+      },
+      {
+        "id": "B",
+        "abc": "zzzz |"
+      },
+      {
+        "id": "C",
+        "abc": "^^^^ |"
+      }
+    ],
+    "expected_choice": "A"
+  },
+  {
+    "id": "eval-cont-001",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed |",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "eval-cont-002",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd |",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "eval-cont-003",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB |",
+    "reference_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 |]"
+  },
+  {
+    "id": "eval-cont-004",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA |",
+    "reference_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 |]"
+  },
+  {
+    "id": "eval-cont-005",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc |",
+    "reference_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG | FEDC |]"
+  },
+  {
+    "id": "eval-cont-006",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF |",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  },
+  {
+    "id": "eval-cont-007",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc |",
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]"
+  },
+  {
+    "id": "eval-cont-008",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed |",
+    "reference_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 |]"
+  },
+  {
+    "id": "eval-cont-009",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED |",
+    "reference_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd | g2g2 |]"
+  },
+  {
+    "id": "eval-cont-010",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd |",
+    "reference_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 |]"
+  },
+  {
+    "id": "eval-cont-011",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Jig 1\nM:6/8\nL:1/8\nR:jig\nK:G\nGAB dBG | cde dBG |",
+    "reference_abc": "X:1\nT:G Jig 1\nM:6/8\nL:1/8\nR:jig\nK:G\nGAB dBG | cde dBG | GAB AGE | DGB G3 |]"
+  },
+  {
+    "id": "eval-cont-012",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:D Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF GAF | dAF EFG |",
+    "reference_abc": "X:1\nT:D Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF GAF | dAF EFG | DEF GAB | AFD D3 |]"
+  },
+  {
+    "id": "eval-cont-013",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nGAB BAG | dBG ABG |",
+    "reference_abc": "X:1\nT:G Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nGAB BAG | dBG ABG | GAB dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-cont-014",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:G Jig 2\nM:6/8\nL:1/8\nR:jig\nK:G\ndBG ABG | GAB dBG |",
+    "reference_abc": "X:1\nT:G Jig 2\nM:6/8\nL:1/8\nR:jig\nK:G\ndBG ABG | GAB dBG | cde dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-cont-015",
+    "track": "editing_continuation",
+    "task_type": "free_continuation",
+    "prompt": "Continue the melody for two more bars in the same style.",
+    "seed_abc": "X:1\nT:D Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nAFA dAF | EFG ABG |",
+    "reference_abc": "X:1\nT:D Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nAFA dAF | EFG ABG | AFD EFG | D3 D3 |]"
+  },
+  {
+    "id": "eval-infill-001",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | <missing> | cBAG |]",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG |]"
+  },
+  {
+    "id": "eval-infill-002",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | <missing> | dcBA |]",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA |]"
+  },
+  {
+    "id": "eval-infill-003",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | <missing> | cBAG |]",
+    "reference_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG |]"
+  },
+  {
+    "id": "eval-infill-004",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | <missing> | d2cB |]",
+    "reference_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB |]"
+  },
+  {
+    "id": "eval-infill-005",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | <missing> | cBAG |]",
+    "reference_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG |]"
+  },
+  {
+    "id": "eval-infill-006",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | <missing> | EDCG |]",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG |]"
+  },
+  {
+    "id": "eval-infill-007",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | <missing> | BAGA |]",
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA |]"
+  },
+  {
+    "id": "eval-infill-008",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | <missing> | cBAG |]",
+    "reference_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG |]"
+  },
+  {
+    "id": "eval-infill-009",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | <missing> | GABd |]",
+    "reference_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd |]"
+  },
+  {
+    "id": "eval-infill-010",
+    "track": "editing_continuation",
+    "task_type": "middle_infilling",
+    "prompt": "Fill in the missing middle bar while preserving style.",
+    "seed_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | <missing> | ecBA |]",
+    "reference_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA |]"
+  },
+  {
+    "id": "eval-corr-001",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 ",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "eval-corr-002",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED ",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "eval-corr-003",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 ",
+    "reference_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 |]"
+  },
+  {
+    "id": "eval-corr-004",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 ",
+    "reference_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 |]"
+  },
+  {
+    "id": "eval-corr-005",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG | FEDC ",
+    "reference_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG | FEDC |]"
+  },
+  {
+    "id": "eval-corr-006",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 ",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  },
+  {
+    "id": "eval-corr-007",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 ",
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]"
+  },
+  {
+    "id": "eval-corr-008",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 ",
+    "reference_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 |]"
+  },
+  {
+    "id": "eval-corr-009",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd | g2g2 ",
+    "reference_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd | g2g2 |]"
+  },
+  {
+    "id": "eval-corr-010",
+    "track": "editing_continuation",
+    "task_type": "error_correction",
+    "prompt": "Correct the malformed ABC tune.",
+    "candidate_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 ",
+    "reference_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 |]"
+  },
+  {
+    "id": "eval-var-001",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGABd | gfed | cBAG | AGG2 |]",
+    "reference_abc": "X:1\nT:G Reel 1\nM:4/4\nL:1/4\nR:reel\nK:G\nGAcd | gfed | cBAG | AGG2 |]"
+  },
+  {
+    "id": "eval-var-002",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]",
+    "reference_abc": "X:1\nT:D Reel 1\nM:4/4\nL:1/4\nR:reel\nK:D\nDEFG | ABcd | dcBA | GFED |]"
+  },
+  {
+    "id": "eval-var-003",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 |]",
+    "reference_abc": "X:1\nT:G Reel 2\nM:4/4\nL:1/4\nR:reel\nK:G\nBcdg | fedB | cBAG | DGG2 |]"
+  },
+  {
+    "id": "eval-var-004",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 |]",
+    "reference_abc": "X:1\nT:D Reel 2\nM:4/4\nL:1/4\nR:reel\nK:D\nFAdf | ecBA | d2cB | ADF2 |]"
+  },
+  {
+    "id": "eval-var-005",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEF | GABc | cBAG | FEDC |]",
+    "reference_abc": "X:1\nT:C March 1\nM:4/4\nL:1/4\nR:march\nK:C\nCDEFA | GAcc | cBAG | FEDC |]"
+  },
+  {
+    "id": "eval-var-006",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]",
+    "reference_abc": "X:1\nT:C March 2\nM:4/4\nL:1/4\nR:march\nK:C\nEFGc | BAGF | EDCG | C4 |]"
+  },
+  {
+    "id": "eval-var-007",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]",
+    "reference_abc": "X:1\nT:A Air 1\nM:4/4\nL:1/4\nR:air\nK:Am\nABcd | e2dc | BAGA | A4 |]"
+  },
+  {
+    "id": "eval-var-008",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 |]",
+    "reference_abc": "X:1\nT:A Air 2\nM:4/4\nL:1/4\nR:air\nK:Am\nAcea | gfed | cBAG | A4 |]"
+  },
+  {
+    "id": "eval-var-009",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GABd | g2g2 |]",
+    "reference_abc": "X:1\nT:G Reel 3\nM:4/4\nL:1/4\nR:reel\nK:G\nd2BG | AGED | GAcd | g2g2 |]"
+  },
+  {
+    "id": "eval-var-010",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 |]",
+    "reference_abc": "X:1\nT:D Reel 3\nM:4/4\nL:1/4\nR:reel\nK:D\nA2FA | d2cd | ecBA | d4 |]"
+  },
+  {
+    "id": "eval-var-011",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Jig 1\nM:6/8\nL:1/8\nR:jig\nK:G\nGAB dBG | cde dBG | GAB AGE | DGB G3 |]",
+    "reference_abc": "X:1\nT:G Jig 1\nM:6/8\nL:1/8\nR:jig\nK:G\nABG dBG | cde dBG | GAB AGE | DGB G3 |]"
+  },
+  {
+    "id": "eval-var-012",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:D Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF GAF | dAF EFG | DEF GAB | AFD D3 |]",
+    "reference_abc": "X:1\nT:D Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nDEF GAF | dAF EFG | DEF ABG | AFD D3 |]"
+  },
+  {
+    "id": "eval-var-013",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nGAB BAG | dBG ABG | GAB dBG | AGF G3 |]",
+    "reference_abc": "X:1\nT:G Dorian Jig 1\nM:6/8\nL:1/8\nR:jig\nK:Gdor\nABG BAG | dBG ABG | GAB dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-var-014",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:G Jig 2\nM:6/8\nL:1/8\nR:jig\nK:G\ndBG ABG | GAB dBG | cde dBG | AGF G3 |]",
+    "reference_abc": "X:1\nT:G Jig 2\nM:6/8\nL:1/8\nR:jig\nK:G\ndBG ABG | ABG dBG | cde dBG | AGF G3 |]"
+  },
+  {
+    "id": "eval-var-015",
+    "track": "editing_continuation",
+    "task_type": "style_variation",
+    "prompt": "Produce a close stylistic variation without copying exactly.",
+    "seed_abc": "X:1\nT:D Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nAFA dAF | EFG ABG | AFD EFG | D3 D3 |]",
+    "reference_abc": "X:1\nT:D Dorian Jig 2\nM:6/8\nL:1/8\nR:jig\nK:Ddor\nAFA dAF | EFG ABG | AFD EFG | D3 D3 |]"
+  }
+]

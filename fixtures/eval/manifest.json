@@ -1,0 +1,28 @@
+{
+  "name": "ABC-GenBench",
+  "version": "0.2.0-eval",
+  "description": "Expanded public evaluation split for ABC-GenBench v1.",
+  "split": "eval",
+  "tracks": [
+    "validity_renderability",
+    "constraint_following",
+    "editing_continuation"
+  ],
+  "instance_files": [
+    "tasks.json"
+  ],
+  "expected_instance_count": 100,
+  "prompt_policy": {
+    "model_visible_fields": [
+      "constraints",
+      "input_abc",
+      "seed_abc",
+      "candidate_abc",
+      "choices"
+    ],
+    "scorer_hidden_fields": [
+      "reference_abc",
+      "expected_choice"
+    ]
+  }
+}

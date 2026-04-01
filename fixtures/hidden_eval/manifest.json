@@ -1,0 +1,31 @@
+{
+  "name": "ABC-GenBench",
+  "version": "0.2.0-hidden",
+  "description": "Local sealed hidden evaluation split for ABC-GenBench v1.",
+  "split": "hidden_eval",
+  "tracks": [
+    "validity_renderability",
+    "constraint_following",
+    "editing_continuation"
+  ],
+  "instance_files": [
+    "public_tasks.json"
+  ],
+  "scoring_instance_files": [
+    "scoring_overrides.json"
+  ],
+  "expected_instance_count": 12,
+  "prompt_policy": {
+    "model_visible_fields": [
+      "constraints",
+      "input_abc",
+      "seed_abc",
+      "candidate_abc",
+      "choices"
+    ],
+    "scorer_hidden_fields": [
+      "reference_abc",
+      "expected_choice"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Score Report",
+  "type": "object",
+  "required": [
+    "benchmark_name",
+    "benchmark_version",
+    "benchmark_split",
+    "model_name",
+    "instance_results",
+    "aggregate_scores",
+    "task_type_scores",
+    "composite_score"
+  ],
+  "properties": {
+    "benchmark_name": {"type": "string"},
+    "benchmark_version": {"type": "string"},
+    "benchmark_split": {"type": "string"},
+    "model_name": {"type": "string"},
+    "instance_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["instance_id", "track", "task_type", "metrics", "summary_score"],
+        "properties": {
+          "instance_id": {"type": "string"},
+          "track": {"type": "string"},
+          "task_type": {"type": "string"},
+          "metrics": {
+            "type": "object",
+            "additionalProperties": {"type": "number"}
+          },
+          "summary_score": {"type": "number"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "aggregate_scores": {
+      "type": "object",
+      "additionalProperties": {"type": "number"}
+    },
+    "task_type_scores": {
+      "type": "object",
+      "additionalProperties": {"type": "number"}
+    },
+    "composite_score": {"type": "number"}
+  },
+  "additionalProperties": false
+}
